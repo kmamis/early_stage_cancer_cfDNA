@@ -80,7 +80,7 @@ This file contains the following vectors:
 
 cfDNA_Mattox_2023.mat
 
-Data on the concentrations (ng/mL) for total and leukocyte-shed cfDNA for healthy inidividuals and stage I-III pancreatic and ovarian cance patients from
+Data on the concentrations (ng/mL) for total and leukocyte-shed cfDNA for healthy individuals and stage I-III pancreatic and ovarian cancer patients from
 Mattox AK, Douville C, Wang Y, et al. The Origin of Highly Elevated Cell-Free DNA in Healthy Individuals and Patients with Pancreatic, Colorectal, Lung, or Ovarian Cancer. Cancer Discov 2023;13:2166–79. https://doi.org/10.1158/2159-8290.CD-21-1252.
 This file contains the following matrices, each one having 5 columns:
 
@@ -107,9 +107,9 @@ This is the procedure used in the manuscript to determine the multiplicative inc
 
 3) cfDNA_CDF_plots.m: returns Fig. 2 of the paper, the multiplicative shift between healthy and cancer CDFs for cfDNA concentrations.
 
-4) non_tumor_cmDNA_CDF_plots.m: returns Fig. 3 of the paper the multiplicative shift between healthy and cancer CDFs for cDNA concentrations, considering only cancer patients with top plasma mutation not detected in the tumor.
+4) non_tumor_cmDNA_CDF_plots.m: returns Fig. 3 of the paper the multiplicative shift between healthy and cancer CDFs for cmDNA concentrations, considering only cancer patients with top plasma mutation not detected in the tumor.
 
-5) ROC_curves.m: returns the ROC curves and perfomance metrics for the cfDNA-driven cancer detection across cancer types, shown in the ESM of the paper
+5) ROC_curves.m: returns the ROC curves and performance metrics for the cfDNA-driven cancer detection across cancer types, shown in the ESM of the paper
 
 6) saturation_model_fitting.m:  This script applies the saturation‑clearance cfDNA model using parameters calibrated from healthy individuals from Mattox et al. (2023).
 For the ovarian and pancreatic cohorts in Mattox (2023), it applies the cancer‑specific multiplicative increases in leukocyte and non‑leukocyte shedding,
